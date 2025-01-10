@@ -1,0 +1,115 @@
+/* Reset dasar */
+body,
+h1,
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #72767a;
+  color: #fff;
+}
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-item {
+  display: flex;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-no {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #72767a;
+  display: flex;
+  align-items: center;
+}
+
+.task-details h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.task-details p {
+  margin: 5px 0;
+}
+
+.task-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.task-details a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #72767a;
+  color: #fff;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.gambar {
+  display: flex;
+  align-items: flex-start; /* Sejajarkan gambar dengan daftar tugas */
+  gap: 20px; /* Jarak antar elemen */
+}
+
+.gambar .task-list {
+  flex: 1; /* Supaya task list mendapatkan ruang yang proporsional */
+}
+
+.gambar ul {
+  list-style: none; /* Hilangkan bullet list */
+  margin: 0;
+  padding: 0;
+}
+
+.gambar img {
+  width: 50%; /* Atur lebar gambar */
+  height: auto; /* Agar proporsi tetap */
+  margin: 5px; /* Jarak antar gambar */
+  display: inline-block; /* Supaya gambar sejajar horizontal */
+  text-align: center;
+}
+.gambar .center img {
+  display: inline-block; /* Pastikan gambar diperlakukan sebagai elemen inline */
+  margin: 10px; /* Beri jarak antar gambar */
+  max-width: 100%; /* Hindari gambar terlalu besar */
+  height: auto; /* Pertahankan proporsi gambar */
+  text-align: center;
+}
+.center-text {
+  text-align: center; /* Teks berada di tengah secara horizontal */
+}
